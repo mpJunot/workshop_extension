@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(150, 11, 87) !important;
+}
+
+#header .header-wrapper {
+    background-color: rgb(165, 13, 97) !important;
+}
+
+#homeboard section {
+    background-color: rgba(59, 15, 179, 0.439) !important;
+}

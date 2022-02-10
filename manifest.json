@@ -1,0 +1,19 @@
+{
+    "name": "Ratz",
+    "version":  "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://intra.epitech.eu/*"] ,
+            "css": ["style.css"]
+        }
+    ],
+    "icons": {
+        "16":   "wolf.png",
+        "48":   "wolf.png"
+    },
+    "action":   {
+        "default_action":   "dom.js"
+    },
+    "permissions": ["activeTab"]
+}
